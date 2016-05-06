@@ -1,2 +1,2 @@
 # JuniperSetupLinux
-Scripts for building install packages for the Juniper programming language on Linux
+Run build.sh and follow the prompts to build a deb package for Linux
