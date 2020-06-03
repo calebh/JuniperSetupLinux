@@ -15,7 +15,7 @@ echo "Section: base" >> "$build_dir/DEBIAN/control"
 echo "Priority: optional" >> "$build_dir/DEBIAN/control"
 echo "Architecture: all" >> "$build_dir/DEBIAN/control"
 echo "Depends: mono-runtime" >> "$build_dir/DEBIAN/control"
-echo "Maintainer: Caleb Helbling <caleb.helbling@gmail.com>" >> "$build_dir/DEBIAN/control"
+echo "Maintainer: Caleb Helbling <caleb.helbling@yahoo.com>" >> "$build_dir/DEBIAN/control"
 echo "Description: Juniper" >> "$build_dir/DEBIAN/control"
 echo " The compiler for the Juniper programming language" >> "$build_dir/DEBIAN/control"
 fakeroot dpkg-deb --build $build_dir
